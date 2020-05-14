@@ -4,7 +4,7 @@ set -e
 
 git add -A
 # Commit changes.
-msg="building site `date`"
+msg="update relearnCS `date`"
 if [ $# -eq 1 ]
 	then msg="$1"
 fi
